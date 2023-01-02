@@ -1,0 +1,55 @@
+body {
+  background-color: aliceblue;
+}
+.header {
+  text-align: center;
+  margin-top: 25px;
+  /* border: 1px solid; */
+  background-color: white;
+  width: 55%;
+  height: 5%;
+}
+.footer {
+  background-color: antiquewhite;
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 22.5%;
+  padding-bottom: 15px;
+  margin-top: 1%;
+}
+.add {
+  margin-left: 5%;
+  margin-top: 15px;
+}
+.activity {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -36px;
+  margin-left: 333px;
+}
+.display {
+  /* margin-left:125px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 45%;
+}
+.display label {
+  margin: 16px 0 0 20px;
+}
+.strike {
+  text-decoration: line-through;
+}
+.edit-delete {
+  padding-left: 270px;
+  width: 100%;
+}
+.edit-delete button {
+  margin-top: 20px;
+}
+/* .display-data{
+  width: 150px;
+} */
